@@ -29,8 +29,7 @@ This project processes an uploaded audio file, detects specified cuss words, and
 ### Upload the Audio File: 
 Run the code in a Jupyter Notebook or Google Colab. Use the file upload widget to upload your audio file in .mp3 or .wav format.
 ### Process the Audio: 
-The code will:
-### Transcribe the audio file using Whisper.
+The code will: Transcribe the audio file using Whisper.
 Detect cuss words from a predefined list.
 Replace cuss words with silence.
 Download Censored Audio: A download link for the censored audio file will be displayed. You can also play the censored audio directly in the notebook.
