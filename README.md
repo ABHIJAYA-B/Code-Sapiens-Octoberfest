@@ -22,6 +22,19 @@ The **Good News Filter** is a Python-based application designed to scrape and cu
 ### Usage:
 Ideal for anyone looking to stay informed about uplifting news, the Good News Filterer can be easily integrated into other applications or used as a standalone tool, making it a valuable resource for individuals and organizations aiming to spread positivity in a world often filled with negative headlines.
 
+# Cuss Word Censoring in Audio Files
+This project processes an uploaded audio file, detects specified cuss words, and censors them by replacing them with silence or beeps. It uses OpenAI's Whisper model for transcription and the pydub library for audio manipulation.
+
+## Usage
+### Upload the Audio File: 
+Run the code in a Jupyter Notebook or Google Colab. Use the file upload widget to upload your audio file in .mp3 or .wav format.
+### Process the Audio: 
+The code will:
+### Transcribe the audio file using Whisper.
+Detect cuss words from a predefined list.
+Replace cuss words with silence.
+Download Censored Audio: A download link for the censored audio file will be displayed. You can also play the censored audio directly in the notebook.
+
 
 
 
